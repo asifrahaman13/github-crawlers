@@ -25,7 +25,8 @@ React JS
 
 Tailwind CSS(For rapid development- reused the codes from Tailblocks)
 
-## How it works(DEPLOYED LINK https://64a178ed0103a8595d4991db--calm-trifle-e24af9.netlify.app/):
+## How it works(DEPLOYED LINK https://64a18c1d8cd57a5513cb1f4d--dainty-duckanoo-189a60.netlify.app/):
+
 
 You will get similar interface like this:
 
