@@ -1,5 +1,6 @@
 ## GitCrawler
 
+
 Do you find it hard to search for talents who have amazing development skills? Gitcrawler is the perfect solution for you. All you need to do is to use. All you need to do is to enter the username of the person, decide what kind of service you want to use, decide if you want a personalized email of the result. Then hit enter and you are done!🔥
 
 ## Technologies used:
@@ -25,7 +26,10 @@ React JS
 
 Tailwind CSS(For rapid development- reused the codes from Tailblocks)
 
-## How it works(DEPLOYED LINK https://64a18c1d8cd57a5513cb1f4d--dainty-duckanoo-189a60.netlify.app/):
+## How it works:
+
+## DEPLOYED LINK: https://64a18c1d8cd57a5513cb1f4d--dainty-duckanoo-189a60.netlify.app/
+## Link of Deployed backend API: https://final-github-backend.onrender.com/postdata
 
 
 You will get similar interface like this:
@@ -46,15 +50,15 @@ Hit "CLICK HERE"
 
 ![Alt text](<Screenshot from 2023-07-02 19-24-29.png>)
 
-Wait for couple of minutes if you want to see the results in the interface. Otherwise you will get personalized email if you have choosen it.
+Wait for couple of minutes if you want to see the results in the interface. Otherwise, you will get a personalized email if you have chosen it.
 
 You will get a detailed analysis like this:
 
 ![Alt text](<Screenshot from 2023-07-02 19-35-18.png>)
 
-Click on the link if you want to visit the respository too.
+Click on the link if you want to visit the repository too.
 
-Want more? check your email 📨. You will get details about the user as well as the codes in the repository.
+Want more? Check your email 📨. You will get details about the user as well as the codes in the repository.
 
 
 HOW TO RUN IN LOCAL SYSTEM?
