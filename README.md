@@ -5,7 +5,7 @@ Do you find it hard to search for talents who have amazing development skills? G
 
 ## Technologies used:
 
-Backend:
+## Backend:
 
 Fast API
 
