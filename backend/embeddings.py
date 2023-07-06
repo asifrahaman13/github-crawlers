@@ -37,7 +37,7 @@ def chroma_embedding(username):
     loader = PyPDFLoader(f"pdf_data/api_endpoints_{username}.pdf")
     data = loader.load()
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=2000, chunk_overlap=0)
+        chunk_size=2000, chunk_overlap=200)
     texts = text_splitter.split_documents(data)
     print(f'Now you have {len(texts)} documents')
     # print(texts[:100])
@@ -47,7 +47,7 @@ def chroma_embedding(username):
         llm=OpenAI(temperature=0, openai_api_key=OPENAI_API_KEY,
                    max_tokens=300),
         chain_type="stuff",
-        retriever=docsearch.as_retriever()
+        retriever=docsearch.as_retriever(search_type="similarity", search_kwargs={"k":5})
     )
     responses = []
     print("Trying to load the query.......................................")
