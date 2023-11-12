@@ -7,29 +7,26 @@ Do you find it hard to search for talents who have amazing development skills? G
 
 ## Backend:
 
-Fast API
+### Fast API
 
-OpenAI API(For embeddings and fetching the results)
+- OpenAI API(For embeddings and fetching the results)
 
-Pinecone API(For similarity search)
+- Pinecone API(For similarity search)
 
-Chroma(For similarity search)
+- Chroma(For similarity search)
 
-Github API(To fetch github repository and user informations)
+- Github API(To fetch github repository and user informations)
 
-Gmail API(For Sending automated email)
+- Gmail API(For Sending automated email)
 
 
 ## Front end:
 
-React JS
+### React JS
 
-Tailwind CSS(For rapid development- reused the codes from Tailblocks)
+- Tailwind CSS(For rapid development- reused the codes from Tailblocks)
 
 ## How it works:
-
-## DEPLOYED LINK: https://64a18c1d8cd57a5513cb1f4d--dainty-duckanoo-189a60.netlify.app/
-## Link of Deployed backend API: https://final-github-backend.onrender.com/postdata
 
 
 You will get similar interface like this:
@@ -61,26 +58,36 @@ Click on the link if you want to visit the repository too.
 Want more? Check your email 📨. You will get details about the user as well as the codes in the repository.
 
 
-HOW TO RUN IN LOCAL SYSTEM?
+## HOW TO RUN IN LOCAL SYSTEM?
 
 Clone the repository.
 
-RUN cd backend
+RUN 
+
+```
+cd backend
+```
 
 Start virtaul enviornment by running:
 
-python3 -m venv env
+```
+virtualenv .venv
+```
 
 Activate virtual environment:
 
-source env/bin/activate
+```
+source .venv/bin/activate
+```
 
 Next install the dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 Next you need to expoert few environment variables:
-
+```
 export OPEN_AI_KEY=YOUR_API_KEY
 
 export GITHUB_ACCESS_TOKEN=YOUR_GITHUB_ACCESS_TOKEN
@@ -92,20 +99,32 @@ export PINECONE_API_ENV=PINECONE_API_ENVIRONMENT
 export SENDER_EMAIL=YOUR_EMAIL_ADDRESS
 
 export EMAIL_API_PASSWORD=YOUR_PASSWORD_SDK_FOR_THE_EMAIL
+```
+
 
 Run the application:
 
+```
 python3 main.py
+```
 
-Now create a separate terminal instance and hit cd frontend
+Now create a separate terminal instance and hit 
+
+```
+cd frontend
+```
 
 Next install the dependencies:
 
+```
 yarn install
+```
 
 Start the frontend in development mode:
 
+```
 yarn start
+```
 
 You are done!
 
